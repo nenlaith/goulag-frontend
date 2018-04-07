@@ -1,0 +1,130 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #272F31;
+  font-size: 15px;
+}
+
+/* background color :         #9a8459 */
+/* dark-text color :          #000000 */
+/* lighter-text color :       #272F31 */
+/* light-text color :         #4C6A6A */
+/* fancy color :              #ea1d24 */
+
+.red-button {
+  border: none;
+  background-color: #ea1d24;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-size: 17px;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  border-bottom: 1px solid #dedede;
+}
+
+.red-button::first-letter {
+  text-transform: uppercase;
+}
+
+button {
+  font-family: 'Open Sans', sans-serif;
+  color: #272F31;
+}
+
+div {
+  display: block;
+  box-sizing: border-box;
+}
+
+a, a:active, a:link, a:visited {
+  text-decoration: none;
+  outline: none;
+  outline-color: initial;
+}
+
+.container-wrapper {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.sub-container {
+  width: 100%;
+  height: 100%;
+}
+
+.container-wrapper > .container {
+  padding: 0 15%;
+}
+
+.container > .sub-container {
+  padding: 10px;
+}
+
+.container-wrapper.after-header {
+  padding-top: 10px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.float-cutter {
+  clear: both;
+}
+
+.form {
+  position: relative;
+}
+
+.form .form-group label::first-letter {
+  text-transform: uppercase;
+}
+
+.form .form-group label {
+  text-transform: lowercase;
+  display: block;
+  font-size: 18px;
+}
+
+.form-group + .form-group {
+  margin-top: 10px;
+}
+
+.form-group + .form-group-button {
+  margin-top: 10px;
+  position: relative;
+}
+
+.form-group-button button {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.form .form-group input[type="text" i], .form .form-group input[type="password" i] {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 7px 3px;
+  border-radius: 3px;
+  border: 1px solid #dedede;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
